@@ -1,5 +1,7 @@
 # React Dev with Apache
 
+Docker image containing Apache and create-react-app for developing React apps
+
 ## Included
 
 - Apache
