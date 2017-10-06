@@ -1,16 +1,18 @@
-# Included
+# React Dev with Apache
+
+## Included
 
 - Apache
 - NodeJS and NPM
 - create-react-app
 
-# Build
+## Build
 
 ```docker build -f PATH/TO/Dockerfile . -t [NAME]:[TAG]```
 
-# React
+## React
 
-## Getting Started
+### Getting Started
 
 You don’t need to install or configure tools like Webpack or Babel.
 
@@ -53,11 +55,11 @@ After creating app for the first time add this line to the package.json, this wi
 
 ``` "build": "react-scripts build && cp -a build/. /var/www/", ```
 
-#### npm start
+##### npm start
 
 Runs the app in development mode in port 3000, you will need to map the port for your docker.
 
-#### npm run build
+##### npm run build
 
 Builds the app for production to the build folder.
 
@@ -70,7 +72,7 @@ By default, it also includes a service worker so that your app loads from local 
 
 Your app is ready to be deployed.
 
-### Ref links for getting started with React
+#### Ref links for getting started with React
 
 https://github.com/facebookincubator/create-react-app
 
