@@ -32,6 +32,7 @@ RUN apt-get update && apt-get -y install nodejs \
 	
 RUN apt-get update &&  npm install -g create-react-app
 
+# change working directory 
 WORKDIR /home/working
 
 # Default command	
